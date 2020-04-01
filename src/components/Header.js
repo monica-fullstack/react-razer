@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header >
       <Nav className="navbar navbar-expand-lg navbar-light bg-dark">
-        <a href="#" className="navbar-brand">Razer</a>
+        <a href="#" className="navbar-brand">
+          <img src={require('../assets/images/razer-nari-logo.svg')} />
+        </a>
       </Nav>
     </header>
   )
